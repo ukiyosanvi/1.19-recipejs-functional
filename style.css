@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filters, .sorts {
+  margin: 10px 0;
+}
+
+button {
+  padding: 8px 14px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #eee;
+  
+}
+
+button.active {
+  background-color: #ff7043;
+  color: white;
+  border: none ;
+}
+
+#recipe-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+}
